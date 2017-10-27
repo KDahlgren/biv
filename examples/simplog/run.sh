@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-cmd="time python ../../src/drivers/pyldfi.py -c 0 -n a,b,c --EOT 4 -f ./simplog.ded --evaluator c4"
+cmd="time python ../../src/drivers/biv.py -c 0 -n a,b,c --EOT 4 -f ./simplog.ded --evaluator c4"
 #cmd="time python ../../src/drivers/pyldfi.py -n a,b,c --EOT 4 -f ./simplog.ded --evaluator c4"
 opt_cmd="cmd"
 
